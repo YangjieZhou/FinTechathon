@@ -1,0 +1,8 @@
+{
+  "file": "/data/projects/fate/python/examples/hetero_secureboosting_tree/../data/test_issurance1.csv",
+  "head": 1,
+  "partition": 10,
+  "table_name": "input_guest_predict2",
+  "namespace": "example_data_namespace",
+  "work_mode": 0
+}

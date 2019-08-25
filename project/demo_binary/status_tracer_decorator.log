@@ -1,0 +1,102 @@
+"2019-08-24 20:12:35,848 - status_tracer_decorator.py[line:59] - INFO: fail to post status success"
+"2019-08-24 20:12:35,848 - status_tracer_decorator.py[line:71] - INFO: job status is success"
+"2019-08-24 20:12:35,955 - status_tracer_decorator.py[line:59] - INFO: fail to post status success"
+"2019-08-24 20:12:35,955 - status_tracer_decorator.py[line:71] - INFO: job status is success"
+"2019-08-24 20:12:38,817 - status_tracer_decorator.py[line:59] - INFO: fail to post status success"
+"2019-08-24 20:12:38,817 - status_tracer_decorator.py[line:71] - INFO: job status is success"
+"2019-08-24 21:31:49,486 - status_tracer_decorator.py[line:59] - INFO: fail to post status success"
+"2019-08-24 21:31:49,486 - status_tracer_decorator.py[line:59] - INFO: fail to post status success"
+"2019-08-24 21:31:49,486 - status_tracer_decorator.py[line:71] - INFO: job status is success"
+"2019-08-24 21:31:49,486 - status_tracer_decorator.py[line:71] - INFO: job status is success"
+"2019-08-24 21:31:55,872 - status_tracer_decorator.py[line:59] - INFO: fail to post status success"
+"2019-08-24 21:31:55,872 - status_tracer_decorator.py[line:71] - INFO: job status is success"
+"2019-08-24 22:50:28,492 - status_tracer_decorator.py[line:59] - INFO: fail to post status success"
+"2019-08-24 22:50:28,492 - status_tracer_decorator.py[line:71] - INFO: job status is success"
+"2019-08-24 22:50:29,002 - status_tracer_decorator.py[line:59] - INFO: fail to post status success"
+"2019-08-24 22:50:29,003 - status_tracer_decorator.py[line:71] - INFO: job status is success"
+"2019-08-24 22:50:35,065 - status_tracer_decorator.py[line:59] - INFO: fail to post status success"
+"2019-08-24 22:50:35,065 - status_tracer_decorator.py[line:71] - INFO: job status is success"
+"2019-08-25 00:49:15,199 - status_tracer_decorator.py[line:73] - INFO: job status is failed"
+"2019-08-25 00:49:15,200 - status_tracer_decorator.py[line:74] - INFO: Traceback (most recent call last):
+  File "/data/projects/fate/python/workflow/status_tracer_decorator.py", line 69, in wrapper
+    res = func(self, *args, **kwargs)
+  File "/data/projects/fate/python/workflow/workflow.py", line 875, in run
+    self.predict(data_instance)
+  File "/data/projects/fate/python/workflow/workflow.py", line 279, in predict
+    table = open("/data/projects/fate/python/examples/hetero_secureboosting_tree/result/predict_result_{}".format(dt.datetime.now().strftim("%Y%m%D%H%M%S")), "w")
+AttributeError: 'datetime.datetime' object has no attribute 'strftim'
+"
+"2019-08-25 00:49:15,207 - status_tracer_decorator.py[line:59] - INFO: fail to post status failed"
+"2019-08-25 00:49:15,961 - status_tracer_decorator.py[line:73] - INFO: job status is failed"
+"2019-08-25 00:49:15,962 - status_tracer_decorator.py[line:74] - INFO: Traceback (most recent call last):
+  File "/data/projects/fate/python/workflow/status_tracer_decorator.py", line 69, in wrapper
+    res = func(self, *args, **kwargs)
+  File "/data/projects/fate/python/workflow/workflow.py", line 875, in run
+    self.predict(data_instance)
+  File "/data/projects/fate/python/workflow/workflow.py", line 279, in predict
+    table = open("/data/projects/fate/python/examples/hetero_secureboosting_tree/result/predict_result_{}".format(dt.datetime.now().strftim("%Y%m%D%H%M%S")), "w")
+AttributeError: 'datetime.datetime' object has no attribute 'strftim'
+"
+"2019-08-25 00:49:15,964 - status_tracer_decorator.py[line:59] - INFO: fail to post status failed"
+"2019-08-25 00:49:22,324 - status_tracer_decorator.py[line:73] - INFO: job status is failed"
+"2019-08-25 00:49:22,324 - status_tracer_decorator.py[line:74] - INFO: Traceback (most recent call last):
+  File "/data/projects/fate/python/workflow/status_tracer_decorator.py", line 69, in wrapper
+    res = func(self, *args, **kwargs)
+  File "/data/projects/fate/python/workflow/workflow.py", line 875, in run
+    self.predict(data_instance)
+  File "/data/projects/fate/python/workflow/workflow.py", line 279, in predict
+    table = open("/data/projects/fate/python/examples/hetero_secureboosting_tree/result/predict_result_{}".format(dt.datetime.now().strftim("%Y%m%D%H%M%S")), "w")
+AttributeError: 'datetime.datetime' object has no attribute 'strftim'
+"
+"2019-08-25 00:49:22,326 - status_tracer_decorator.py[line:59] - INFO: fail to post status failed"
+"2019-08-25 00:51:45,992 - status_tracer_decorator.py[line:73] - INFO: job status is failed"
+"2019-08-25 00:51:45,993 - status_tracer_decorator.py[line:74] - INFO: Traceback (most recent call last):
+  File "/data/projects/fate/python/workflow/status_tracer_decorator.py", line 69, in wrapper
+    res = func(self, *args, **kwargs)
+  File "/data/projects/fate/python/workflow/workflow.py", line 875, in run
+    self.predict(data_instance)
+  File "/data/projects/fate/python/workflow/workflow.py", line 279, in predict
+    table = open("/data/projects/fate/python/examples/hetero_secureboosting_tree/result/predict_result_{}".format(dt.datetime.now().strftime("%Y%m%D%H%M%S")), "w")
+FileNotFoundError: [Errno 2] No such file or directory: '/data/projects/fate/python/examples/hetero_secureboosting_tree/result/predict_result_20190808/25/19005145'
+"
+"2019-08-25 00:51:45,995 - status_tracer_decorator.py[line:59] - INFO: fail to post status failed"
+"2019-08-25 00:51:46,448 - status_tracer_decorator.py[line:73] - INFO: job status is failed"
+"2019-08-25 00:51:46,448 - status_tracer_decorator.py[line:74] - INFO: Traceback (most recent call last):
+  File "/data/projects/fate/python/workflow/status_tracer_decorator.py", line 69, in wrapper
+    res = func(self, *args, **kwargs)
+  File "/data/projects/fate/python/workflow/workflow.py", line 875, in run
+    self.predict(data_instance)
+  File "/data/projects/fate/python/workflow/workflow.py", line 279, in predict
+    table = open("/data/projects/fate/python/examples/hetero_secureboosting_tree/result/predict_result_{}".format(dt.datetime.now().strftime("%Y%m%D%H%M%S")), "w")
+FileNotFoundError: [Errno 2] No such file or directory: '/data/projects/fate/python/examples/hetero_secureboosting_tree/result/predict_result_20190808/25/19005146'
+"
+"2019-08-25 00:51:46,455 - status_tracer_decorator.py[line:59] - INFO: fail to post status failed"
+"2019-08-25 00:51:52,502 - status_tracer_decorator.py[line:73] - INFO: job status is failed"
+"2019-08-25 00:51:52,503 - status_tracer_decorator.py[line:74] - INFO: Traceback (most recent call last):
+  File "/data/projects/fate/python/workflow/status_tracer_decorator.py", line 69, in wrapper
+    res = func(self, *args, **kwargs)
+  File "/data/projects/fate/python/workflow/workflow.py", line 875, in run
+    self.predict(data_instance)
+  File "/data/projects/fate/python/workflow/workflow.py", line 279, in predict
+    table = open("/data/projects/fate/python/examples/hetero_secureboosting_tree/result/predict_result_{}".format(dt.datetime.now().strftime("%Y%m%D%H%M%S")), "w")
+FileNotFoundError: [Errno 2] No such file or directory: '/data/projects/fate/python/examples/hetero_secureboosting_tree/result/predict_result_20190808/25/19005152'
+"
+"2019-08-25 00:51:52,504 - status_tracer_decorator.py[line:59] - INFO: fail to post status failed"
+"2019-08-25 00:56:08,139 - status_tracer_decorator.py[line:59] - INFO: fail to post status success"
+"2019-08-25 00:56:08,139 - status_tracer_decorator.py[line:71] - INFO: job status is success"
+"2019-08-25 00:56:08,218 - status_tracer_decorator.py[line:59] - INFO: fail to post status success"
+"2019-08-25 00:56:08,218 - status_tracer_decorator.py[line:71] - INFO: job status is success"
+"2019-08-25 00:56:18,341 - status_tracer_decorator.py[line:59] - INFO: fail to post status success"
+"2019-08-25 00:56:18,341 - status_tracer_decorator.py[line:71] - INFO: job status is success"
+"2019-08-25 00:59:37,915 - status_tracer_decorator.py[line:59] - INFO: fail to post status success"
+"2019-08-25 00:59:37,915 - status_tracer_decorator.py[line:59] - INFO: fail to post status success"
+"2019-08-25 00:59:37,915 - status_tracer_decorator.py[line:71] - INFO: job status is success"
+"2019-08-25 00:59:37,915 - status_tracer_decorator.py[line:71] - INFO: job status is success"
+"2019-08-25 00:59:47,965 - status_tracer_decorator.py[line:59] - INFO: fail to post status success"
+"2019-08-25 00:59:47,965 - status_tracer_decorator.py[line:71] - INFO: job status is success"
+"2019-08-25 01:12:43,634 - status_tracer_decorator.py[line:59] - INFO: fail to post status success"
+"2019-08-25 01:12:43,634 - status_tracer_decorator.py[line:71] - INFO: job status is success"
+"2019-08-25 01:12:44,454 - status_tracer_decorator.py[line:59] - INFO: fail to post status success"
+"2019-08-25 01:12:44,454 - status_tracer_decorator.py[line:71] - INFO: job status is success"
+"2019-08-25 01:12:53,654 - status_tracer_decorator.py[line:59] - INFO: fail to post status success"
+"2019-08-25 01:12:53,654 - status_tracer_decorator.py[line:71] - INFO: job status is success"
